@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size:100%;
+    font: inherit;
+
+}
+body{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+h1,h2, button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+}
+
+.container{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+
+}
+.chronometer{
+    background-color: rgba(201, 195, 195, 0.596);
+    margin: 50px 30px 50px 30px;
+    border: 2px solid rgba(20, 19, 19, 0.87);
+    border-top: 5px solid rgba(20, 19, 19, 0.87);
+    border-radius: 3%;
+}
+#title, .display, .buttons{
+    padding-top: 25px;
+    margin-top: 25px;
+    text-align: center;
+    
+}
+.buttons{
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+button{
+    width: 120px;
+    background-color: black;
+    color: #FFF;
+    border-radius: 5%;
+    text-align: center;
+}
+
+button:hover{
+    border: 1px solid red;
+}
+
